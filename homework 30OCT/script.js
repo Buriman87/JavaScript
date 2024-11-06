@@ -8,7 +8,7 @@ let johnHeights = [1.95, 1.76];
 //Calculate both BMI for each of one
 
 const calculateBMI = (mass, height) => mass / height ** 2;
-dsa
+
 for (let i = 0; i < markHeights.length; i++) {
   const markBMI = calculateBMI(markWeights[i], markHeights[i]);
   const johnBMI = calculateBMI(johnWeights[i], johnHeights[i]);
